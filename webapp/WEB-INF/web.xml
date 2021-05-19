@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.1" xmlns="http://xmlns.jcp.org/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd">
+    <servlet>
+        <servlet-name>acao</servlet-name>
+        <servlet-class>servlet.acao</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>acaoProjeto</servlet-name>
+        <servlet-class>servlet.acaoProjeto</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>acaoRequisito</servlet-name>
+        <servlet-class>servlet.acaoRequisito</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>acao</servlet-name>
+        <url-pattern>/acao</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>acaoProjeto</servlet-name>
+        <url-pattern>/acaoProjeto</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>acaoRequisito</servlet-name>
+        <url-pattern>/acaoRequisito</url-pattern>
+    </servlet-mapping>
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+</web-app>

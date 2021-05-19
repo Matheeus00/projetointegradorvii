@@ -1,0 +1,125 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+html {
+    height: 115%;
+}
+
+#body-caduser {
+    background: linear-gradient(90deg, #FC6060 0%, #F7974D 100%);
+}
+
+#voltar {
+    padding: 10px 40px;
+}
+
+#container {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: 680px;
+    width: 1400px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding-top: 30px;
+    box-shadow: 10px 10px;
+    padding: 25px 0 50px 0;
+}
+
+#texto-cadastro {
+    text-align: center;
+    font-size: 30px;
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+    text-align: right;
+    padding-right: 15px;
+}
+
+label, input {
+    margin-top: 20px;
+}
+
+input, select {
+    padding: 6px;
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    border: 2px solid black;
+}
+
+#infos {
+    display: inline-block;
+    text-align: left;
+    width: 900px;
+}
+
+#localizacao {
+    display: inline-block;
+    width: 400px;
+}
+
+#id-field {
+    appearance: none;
+    text-align: center;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+}
+
+#email-field {
+    width: 300px;
+}
+
+#name-field, #surname-field, #cpf-field{
+    width: 200px;
+}
+
+#tel-field, #user-field, #pass-field, #confpass-field {
+    width: 170px;
+}
+
+#cidade, #estado, #pais {
+    width: 150px;
+    text-align: center;
+}
+
+#situacao, #permissions {
+    text-align: center;
+}
+
+#acoes {
+    margin-left: 35%;
+    margin-top: 45px;
+}
+
+#button-salvar-cad, #button-excluir-cad, #button-limpar, #button-consultar-cad {
+    padding: 10px;
+    margin: 15px;
+    width: 80px;
+    height: 55px;
+    text-align: center;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+#button-salvar-cad {
+    background-color: #28E830;
+}
+
+#button-excluir-cad {
+    background-color: #FF3A19;
+}
+
+#button-consultar-cad {
+    background-color: #6095FF;
+}
+
+#button-salvar-cad:hover, #button-excluir-cad:hover, #button-limpar:hover, #button-consultar-cad:hover {
+    box-shadow: 0px 0px;
+}

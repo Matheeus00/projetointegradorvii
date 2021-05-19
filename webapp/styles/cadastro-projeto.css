@@ -1,0 +1,116 @@
+* {
+    padding: 0;
+    margin: 0
+}
+
+html {
+    height: 100%;
+}
+
+#body-cadproj {
+    background: linear-gradient(90deg, #FCDD60 0%, #FFE047 100%);
+}
+
+#voltar {
+    padding: 10px 40px;
+}
+
+
+#id-field {
+    appearance: none;
+    text-align: center;
+    width: 70px;
+    text-align: right;
+    padding-right: 15px;
+    margin-left: 10px;
+}
+
+#container {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    height: 580px;
+    width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding-top: 30px;
+    box-shadow: 10px 10px;
+    padding: 25px 0 50px 0;
+}
+
+#texto-cadastro {
+    text-align: center;
+    font-size: 30px;
+}
+
+#desc-field {
+    resize: none;
+}
+
+#form-projeto {
+    margin: 60px;
+    margin-left: 22%;
+    margin-top: 8%;
+}
+
+label {
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+input {
+    width: 500px;
+    height: 30px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 15px;
+}
+
+input, textarea {
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    border: 2px solid black;
+}
+
+textarea {
+    width: 500px;
+    height: 170px;
+    padding: 15px;
+}
+
+
+#acoes {
+    display: flex;
+    margin-top: 25px;
+}
+
+#button-salvar-cad, #button-excluir-cad, #button-limpar, #button-consultar-cad, #button-relatorio-cad {
+    padding: 10px;
+    margin: 15px;
+    width: 80px;
+    height: 55px;
+    text-align: center;
+    transition: box-shadow 0.25s ease-in-out;
+}
+
+#button-salvar-cad:hover, #button-excluir-cad:hover, #button-limpar:hover, #button-consultar-cad:hover, #button-relatorio-cad:hover {
+    box-shadow: 0px 0px;
+}
+
+#button-salvar-cad {
+    background-color: #28E830;
+}
+
+#button-excluir-cad {
+    background-color: #FF3A19;
+}
+
+#button-consultar-cad {
+    background-color: #6095FF;
+}
+
+#button-relatorio-cad {
+    background-color: #FF9900;
+}
